@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #eeeeee;
+}
+
+/* NAVBAR */
+.nav {
+    background: #dcdcdc;
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo {
+    background: black;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    background: white;
+    padding: 10px 20px;
+    margin-right: 20px;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* SECTIONS */
+section {
+    padding: 40px 80px;
+}
+
+/* ABOUT */
+.about-box {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.about-box img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.about-text h3 {
+    margin-bottom: 10px;
+}
+
+/* PROJECTS */
+.project-box {
+    display: flex;
+    justify-content: center; /* centers the whole row */
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.project-box img {
+    width: 394px;
+    height: 296px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* TALENTS */
+.talent-box img {
+    width: 394px;
+    height: 296px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* DESCRIPTION TEXT */
+.desc {
+    margin-top: 20px;
+}
